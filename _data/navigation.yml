@@ -5,14 +5,21 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "Education"
+  - title: "Degree"
     url: /education/
+    #modules, projects in modules, what we learned in modules, undergrad research, etc
 
   - title: "Certifications"
     url: /certifications/
+    #all certificates, years, links to certificates, what i learned, etc
 
   - title: "Portfolio"
     url: /portfolio/
+    #projects, links to projects, what i learned, etc
+
+  - title: "Extra-Curricular"
+    url: /extracurricular/
+    #clubs, positions, what i learned, etc
   
   - title: "CV"
-    url: /files/cv.pdf
+    url: /files/vishalgimhan.pdf
