@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Hello there!"
+title: "Hello there! 👋"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-🎓 I'm have completed my Bachelor’s Degree from the University of Moratuwa (CGPA 3.98) in Nov 2024, specializing in Business Analytics. 📊
+🎓 I have completed my Bachelor’s Degree from the University of Moratuwa (CGPA 3.98) in Nov 2024, specializing in Business Analytics. 📊
 
 📊 During my degree, I gained hands-on experience in Data Wrangling, Machine Learning, Deep Learning, and Business Intelligence using tools like Python, R, PowerBI, and SQL. 🔍
 
