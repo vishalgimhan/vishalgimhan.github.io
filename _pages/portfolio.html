@@ -5,10 +5,221 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
+```html
+---
+layout: archive
+title: "Portfolio"
+permalink: /portfolio/
+author_profile: true
+---
 
+<h1>📂 Portfolio</h1>
+<p>Here are some of the projects I have worked on during my academic studies and through online courses:</p>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<h3>📚 Projects done during my undergraduate studies:</h3>
 
+<ol>
+  <li><strong>🏠 Zillow Housing Data Dashboard Project for Business Intelligence Module</strong>
+    <ul>
+      <li><strong>Description:</strong> Developed a comprehensive Zillow Housing Data Dashboard to analyze the US real estate market. The project involved analyzing the Zillow Zestimate dataset to provide meaningful insights into the US real estate market. Key operations included data acquisition, cleaning, transformation, and visualization. The primary goal was to guide investors in making informed decisions by identifying undervalued properties, predicting future price trends, and analyzing neighborhood growth, ultimately maximizing returns in the competitive real estate market.</li>
+      <li><strong>Tools used:</strong> Azure Data Lake, Databricks, SQL Data Warehouse, Power BI.</li>
+      <li><strong>Project Repo:</strong> <a href="https://github.com/vishalgimhan/zillow-bi" target="_blank">Zillow BI</a></li>
+    </ul>
+  </li>
+  <li><strong>🌍 Gas Turbine Emission Analysis Project for Machine Learning Module</strong>
+    <ul>
+      <li><strong>Description:</strong> Conducted a comprehensive analysis of gas turbine emissions using regression and clustering techniques. The project involved analyzing a dataset containing environmental and operational factors affecting the emissions of nitrogen oxides (NOx) and carbon monoxide (CO) from a gas turbine in Turkey. The primary goal was to understand the factors influencing gas turbine emissions and to develop predictive models for better emission control and optimization.</li>
+      <li><strong>Tools used:</strong> Python, Pandas, Numpy, Scikit-learn, Linear Regression, Decision Tree, Random Forest, XGBoost, K-Means, Agglomerative Clustering.</li>
+    </ul>
+  </li>
+  <li><strong>💰 Bitcoin Prediction App Project for Deep Learning Module</strong>
+    <ul>
+      <li><strong>Description:</strong> Developed a Bitcoin Prediction App using Long Short-Term Memory (LSTM) neural networks. The project involved selecting and preprocessing a dataset containing Bitcoin market trading information from May 21, 2015, to May 21, 2024. Features such as day of the week, month, exponential moving averages, and Ichimoku Cloud lines were engineered to enhance the model's predictive power. The purpose was to construct reliable prediction models for Bitcoin closing prices to improve trading strategies, maximize profits, and manage risks more effectively.</li>
+      <li><strong>Tools used:</strong> Python, LSTM, Pandas, Numpy, various feature engineering techniques.</li>
+      <li><strong>Project Repo:</strong> <a href="https://github.com/vishalgimhan/dl-lstm-bitcoin-price-prediction" target="_blank">Bitcoin Prediction</a></li>
+    </ul>
+  </li>
+  <li><strong>📈 Stock Market Analysis Project for Text Analytics Module</strong>
+    <ul>
+      <li><strong>Description:</strong> Developed a comprehensive text analytics system to predict stock market movements based on sentiment analysis of news articles and social media data. The project involved multiple phases, including data extraction from sources like Kaggle, Hugging Face, and Yahoo Finance, and preprocessing to clean and prepare the data. Sentiment analysis tools were used to derive sentiment scores, and various machine learning models were employed for classification and regression tasks to predict stock prices. The primary goal was to create a predictive model that combines sentiment scores with historical stock data to improve trading strategies and provide insights into market behavior.</li>
+      <li><strong>Tools used:</strong> Python, Pandas, Numpy, VADER, TextBlob, Logistic Regression, SVM, Gradient Boosting, KNN, LSTM.</li>
+      <li><strong>Project Repo:</strong> <a href="https://github.com/vishalgimhan/textanalytics-stockmarket" target="_blank">Stock Market Analysis</a></li>
+    </ul>
+  </li>
+  <li><strong>🗺️ GeoSpatial Clustering Project for Spatial Data Analytics</strong>
+    <ul>
+      <li><strong>Description:</strong> Conducted an in-depth analysis using unsupervised machine learning techniques on a taxi fare dataset. The project involved geospatial clustering of pickup and drop-off locations within New York City to identify high, moderate, and low-density areas, as well as special locations like airports. The primary goal was to optimize urban transportation systems by uncovering hidden patterns in taxi ride data.</li>
+      <li><strong>Tools used:</strong> Python, QGIS, Pandas, Numpy, Geopy, K-Means.</li>
+    </ul>
+  </li>
+  <li><strong>📚 Library System Project for Business Application Development Module</strong>
+    <ul>
+      <li><strong>Description:</strong> Developed a comprehensive Library System to manage book inventories, user accounts, and transaction records. The system is designed to efficiently manage book inventories, user accounts, and transaction records. Key operations include adding, updating, and deleting books, managing user registrations and logins, and tracking book borrowings and returns. The primary goal was to streamline library operations and provide a user-friendly interface for managing library resources.</li>
+      <li><strong>Tools used:</strong> HTML, Python, JavaScript, Django, GitHub.</li>
+      <li><strong>Project Repo:</strong> <a href="https://github.com/vishalgimhan/LibrarySystem" target="_blank">Library System</a></li>
+    </ul>
+  </li>
+  <li><strong>📊 Power BI Project for Data Visualization Module</strong>
+    <ul>
+      <li><strong>Description:</strong> Developed a comprehensive report and Power BI dashboard to analyze global terrorism data. The project involved cleaning the dataset and creating visualizations to highlight key insights, including geographical distribution, success rates of attacks, types of weapons used, and the monetary impact of attacks. The purpose was to understand the patterns and impacts of global terrorism, aiding in better decision-making and analysis.</li>
+      <li><strong>Tools used:</strong> Power BI, various visualization techniques (maps, area charts, donut charts, line charts, pie charts, bar charts, cards).</li>
+    </ul>
+  </li>
+  <li><strong>📈 R Programming Project for Introduction to Econometrics Module</strong>
+    <ul>
+      <li><strong>Description:</strong> Conducted a comprehensive analysis using R programming language to investigate the impact of Foreign Direct Investments (FDI) and GDP growth on a country's level of exports. The project involved cleaning and analyzing data from 266 countries over six decades, employing various econometric techniques. The primary goal was to understand the determinants of export levels, with findings indicating that both FDI and GDP growth significantly influence exports, with GDP growth having a more substantial effect.</li>
+      <li><strong>Tools used:</strong> R, R Studio, econometric techniques (pooled OLS, fixed effects, random effects models).</li>
+      <li><strong>Project Repo:</strong> <a href="https://github.com/vishalgimhan/R-Projects" target="_blank">R Projects</a></li>
+    </ul>
+  </li>
+  <li><strong>🔄 Power Automate Project for Programming Module</strong>
+    <ul>
+      <li><strong>Description:</strong> Developed a Power Automate solution to streamline the approval process for vendor payment requests. The project involved designing and implementing an automated workflow that triggers when a vendor submits a payment request form. The workflow includes steps to verify the vendor's authorization, check budget compliance, and obtain approvals from the sales agent and finance department. The primary goal was to increase efficiency, reduce errors, and provide real-time updates on the status of payment requests, ensuring compliance with company policies and enhancing transparency in the payment approval process.</li>
+      <li><strong>Tools used:</strong> Power Automate.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3>🖥️ Independent Projects through Online Courses:</h3>
+
+<ul>
+  <li><strong>Python Projects</strong> - <a href="https://github.com/vishalgimhan/Python-Projects" target="_blank">Git Repo</a>
+    <ul>
+      <li><strong>🖼️ Image to Pencil Sketch Project</strong>
+        <ul>
+          <li><strong>Description:</strong> This project involves converting an image to a pencil sketch using OpenCV. The process includes several steps: reading the image, converting it to grayscale, inverting the grayscale image, applying Gaussian blur to the inverted image, and finally creating the pencil sketch by dividing the grayscale image by the inverted blurred image. The project also includes displaying the original, grayscale, inverted, blurred, and final pencil sketch images using cv2_imshow.</li>
+          <li><strong>Tools used:</strong> OpenCV, NumPy.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+  <h3>📝 NLP Projects - <a href="https://github.com/vishalgimhan/NLP-Projects">NLP Projects</a></h3>
+<ul>
+  <li><strong>💉 Covid-19 Vaccine Sentiment Analysis</strong>
+    <ul>
+      <li><strong>Description:</strong> This project involves analyzing sentiments towards Covid-19 vaccines using tweets. The process includes importing libraries for data processing, visualization, and natural language processing, cleaning the text data, calculating sentiment scores using the nltk library’s SentimentIntensityAnalyzer, and performing exploratory data analysis to understand sentiment distribution and visualize common words in positive and negative tweets.</li>
+      <li><strong>Tools used:</strong> NumPy, Pandas, Matplotlib, Seaborn, Plotly, NLTK.</li>
+    </ul>
+  </li>
+  <li><strong>🐦 Twitter Sentiment Analysis</strong>
+    <ul>
+      <li><strong>Description:</strong> This project focuses on analyzing sentiments in tweets using the Sentiment140 dataset. It includes installing and setting up the Kaggle library, downloading and preprocessing the dataset, training a Logistic Regression model using TfidfVectorizer, and evaluating the model's performance. The trained model is then used to classify new tweets.</li>
+      <li><strong>Tools used:</strong> Kaggle, Pandas, TfidfVectorizer, Logistic Regression.</li>
+    </ul>
+  </li>
+  <li><strong>🏨 Hotel Recommendation System</strong>
+    <ul>
+      <li><strong>Description:</strong> This project involves developing a hotel recommendation system based on user reviews. The process includes importing necessary libraries, preparing and processing the data, and defining a function to recommend hotels based on location and description by comparing processed descriptions with hotel tags.</li>
+      <li><strong>Tools used:</strong> NLTK, NumPy, Pandas, WordNetLemmatizer.</li>
+    </ul>
+  </li>
+  <li><strong>📧 Spam Email Detection using NLP</strong>
+    <ul>
+      <li><strong>Description:</strong> This project aims to detect spam emails using natural language processing techniques. It involves importing necessary libraries, loading and cleaning the dataset, removing stopwords and punctuation, converting text into a matrix of token counts using CountVectorizer, and training a Naive Bayes Classifier. The model is evaluated using precision, recall, and f1-score metrics.</li>
+      <li><strong>Tools used:</strong> NLTK, Pandas, CountVectorizer, Naive Bayes Classifier.</li>
+    </ul>
+  </li>
+  <li><strong>📹 Youtube Trending Video Analysis</strong>
+    <ul>
+      <li><strong>Description:</strong> This project analyzes trends in YouTube videos using various visualizations. It includes importing essential libraries, exploring the dataset, handling missing values, and creating visualizations such as pie charts, histograms, scatter plots, and word clouds to analyze video titles, views, and other metrics. A heatmap is generated to show correlations between numerical and boolean features.</li>
+      <li><strong>Tools used:</strong> Pandas, NumPy, Matplotlib, Seaborn, Wordcloud.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>🤖 Machine Learning Projects - <a href="https://github.com/vishalgimhan/MachineLearning-Projects">Git Repo</a></h3>
+<ul>
+  <li><strong>💸 Waiter Tip Prediction Model</strong>
+    <ul>
+      <li><strong>Description:</strong> This project involves predicting the tip amount a waiter will receive based on various factors. The process includes examining the dataset, visualizing relationships between variables, transforming categorical variables into numerical values, building a Linear Regression model, evaluating the model's performance, and developing an application to predict tips based on user input.</li>
+      <li><strong>Tools used:</strong> Python, Pandas, Matplotlib, Seaborn, Scikit-learn, Linear Regression.</li>
+    </ul>
+  </li>
+  <li><strong>📈 Future Sales Prediction Model</strong>
+    <ul>
+      <li><strong>Description:</strong> This project focuses on predicting future sales based on advertising costs. It involves loading and preprocessing the dataset, visualizing relationships between sales and advertising costs, performing correlation analysis, training a Linear Regression model, and implementing a function to predict sales based on user input for TV, Radio, and Newspaper advertising costs.</li>
+      <li><strong>Tools used:</strong> Python, Pandas, Plotly, Scikit-learn, Linear Regression.</li>
+    </ul>
+  </li>
+  <li><strong>💰 Crypto Currency Price Prediction Model</strong>
+    <ul>
+      <li><strong>Description:</strong> This project aims to predict future Bitcoin prices using historical data. It includes importing necessary libraries, fetching historical Bitcoin data, organizing and visualizing the data, performing correlation analysis, and using the AutoTS library to predict future prices.</li>
+      <li><strong>Tools used:</strong> Python, Pandas, yfinance, datetime, Plotly, AutoTS.</li>
+    </ul>
+  </li>
+  <li><strong>📊 Instagram Reach Analysis and Prediction Model</strong>
+    <ul>
+      <li><strong>Description:</strong> This project analyzes and predicts Instagram post impressions. It involves importing libraries, loading and preprocessing the dataset, analyzing the distribution of impressions, examining correlations between factors, and training a PassiveAggressiveRegressor model to predict impressions based on various features.</li>
+      <li><strong>Tools used:</strong> Python, Pandas, Matplotlib, Seaborn, Wordcloud, Scikit-learn, PassiveAggressiveRegressor.</li>
+    </ul>
+  </li>
+  <li><strong>🏅 Gold Price Prediction Model</strong>
+    <ul>
+      <li><strong>Description:</strong> This project predicts gold prices using historical data. It involves importing libraries, downloading historical gold price data, preparing the dataset, training a Linear Regression model, and visualizing the model's predictions against actual prices.</li>
+      <li><strong>Tools used:</strong> Python, yfinance, Pandas, Numpy, Matplotlib, Scikit-learn, Linear Regression.</li>
+    </ul>
+  </li>
+  <li><strong>📧 Spam Email Detection Classification Model</strong>
+    <ul>
+      <li><strong>Description:</strong> This project detects spam emails using natural language processing techniques. It includes importing libraries, loading and cleaning the dataset, removing stopwords and punctuation, converting text into token counts, and training a Naive Bayes Classifier. The model is evaluated using precision, recall, and f1-score metrics.</li>
+      <li><strong>Tools used:</strong> Python, Pandas, NLTK, CountVectorizer, Scikit-learn, Naive Bayes Classifier.</li>
+    </ul>
+  </li>
+  <li><strong>📄 Resume Screening Classification Model</strong>
+    <ul>
+      <li><strong>Description:</strong> This project screens resumes to classify them into job roles. It involves cleaning and tokenizing the data, visualizing the distribution of resume categories, removing stopwords, generating a word cloud, and training a KNeighbors Classifier using TF-IDF features.</li>
+      <li><strong>Tools used:</strong> Python, Pandas, NLTK, TF-IDF, Scikit-learn, KNeighbors Classifier.</li>
+    </ul>
+  </li>
+  <li><strong>📱 SMS Spam Detection Classification Model</strong>
+    <ul>
+      <li><strong>Description:</strong> This project detects spam SMS messages. It includes loading and cleaning the dataset, preprocessing text data, converting text into numerical features using the Bag of Words approach, training a Multinomial Naive Bayes model, and evaluating the model's performance using accuracy, precision, recall, and F1 score.</li>
+      <li><strong>Tools used:</strong> Python, Pandas, NLTK, CountVectorizer, Scikit-learn, Multinomial Naive Bayes.</li>
+    </ul>
+  </li>
+  <li><strong>🗣️ Hate Speech Detection Model</strong>
+    <ul>
+      <li><strong>Description:</strong> This project detects hate speech in text data. It involves importing libraries, reading and preprocessing the dataset, balancing the training data, and training a pipeline using CountVectorizer, TfidfTransformer, and SGDClassifier. The model achieves a high F1 score.</li>
+      <li><strong>Tools used:</strong> Python, Pandas, NLTK, CountVectorizer, TfidfTransformer, Scikit-learn, SGDClassifier.</li>
+    </ul>
+  </li>
+  <li><strong>📱 Mobile Price Classification Model</strong>
+    <ul>
+      <li><strong>Description:</strong> This project classifies mobile phones into price ranges based on their features. It involves loading and exploring the dataset, standardizing the data, splitting it into training and testing sets, training a Logistic Regression model, and evaluating the model's accuracy.</li>
+      <li><strong>Tools used:</strong> Python, Pandas, Scikit-learn, Logistic Regression.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>🧠 Deep Learning Projects - <a href="https://github.com/vishalgimhan/DeepLearning-Projects">Git Repo</a></h3>
+
+<ol>
+  <li><strong>📈 Stock Price Prediction with LSTM Neural Network</strong>
+    <ul>
+      <li><strong>Description</strong>: This project involves predicting Apple (AAPL) stock prices using a Long Short-Term Memory (LSTM) neural network. The process includes downloading historical stock prices from Yahoo Finance, visualizing stock price movements with a Candlestick chart, computing a correlation matrix to understand feature relationships, and constructing and training an LSTM model to predict stock prices based on features like Open, High, Low, and Volume.</li>
+      <li><strong>Tools used</strong>: Yahoo Finance (yf), Plotly, Python, LSTM.</li>
+    </ul>
+  </li>
+  
+  <li><strong>🖼️ Image Classification with Neural Networks</strong>
+    <ul>
+      <li><strong>Description</strong>: This project focuses on classifying fashion images using a neural network model. It involves importing necessary libraries, using the Fashion MNIST dataset, constructing a neural network model with two hidden layers, training the model on the dataset, and predicting the classes of new images.</li>
+      <li><strong>Tools used</strong>: TensorFlow, Keras, NumPy, Matplotlib, Fashion MNIST dataset.</li>
+    </ul>
+  </li>
+  
+  <li><strong>💳 Credit Card Fraud Detection Model with Autoencoder Model</strong>
+    <ul>
+      <li><strong>Description</strong>: This project aims to detect credit card fraud using an autoencoder model. The process includes downloading and preprocessing the dataset from Kaggle, building an autoencoder model with Keras, training the model on non-fraudulent transactions, and using the hidden representations to train a Logistic Regression model for fraud detection. The model achieves high accuracy and effectiveness in detecting fraudulent transactions.</li>
+      <li><strong>Tools used</strong>: Kaggle, Keras, Python, Logistic Regression.</li>
+    </ul>
+  </li>
+  
+  <li><strong>🖼️ Data Augmentation for Image Processing</strong>
+    <ul>
+      <li><strong>Description</strong>: This project involves applying data augmentation techniques to improve image processing models. It includes installing necessary packages, applying various augmentation techniques to a single image, augmenting the MNIST dataset, and training two models—one with augmented data and one without. The augmented model shows better performance and less overfitting.</li>
+      <li><strong>Tools used</strong>: TensorFlow, tensorflow_docs, tensorflow_datasets, MNIST dataset.</li>
+    </ul>
+  </li>
+</ol>

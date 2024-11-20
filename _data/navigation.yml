@@ -16,10 +16,6 @@ main:
   - title: "Portfolio"
     url: /portfolio/
     #projects, links to projects, what i learned, etc
-
-  - title: "Extra-Curricular"
-    url: /extracurricular/
-    #clubs, positions, what i learned, etc
   
   - title: "CV"
     url: /files/vishalgimhan.pdf
