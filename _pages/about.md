@@ -38,15 +38,15 @@ Volunteering
 
 Competitions Attended:
 ======
-- IntelliHack 4.0 - Finalists - Sri Lanka's first-ever Machine Learning and AI Hackathon organized by IEEE Computer Society of University of Colombo School of Computing. Team Name: TheCipherSquad
-- DataStorm 5.0 - Semifinalists - One of Sri Lanka's leading Advanced Analytics Competitions organized by Rotaract Club of University of Moratuwa, Rotaract Club of Faculty of Science, University of Colombo. 
+- IntelliHack 4.0 - Finalists - **Sri Lanka's first-ever Machine Learning and AI Hackathon** organized by IEEE Computer Society of University of Colombo School of Computing. Team Name: TheCipherSquad
+- DataStorm 5.0 - Semifinalists - **One of Sri Lanka's leading Advanced Analytics Competitions** organized by Rotaract Club of University of Moratuwa, Rotaract Club of Faculty of Science, University of Colombo. 
 Team Name: Algorithm Assassins
-- BizWizards 2023 - 2nd Runners-up - An Inter-University Business Case Analysis Competition organized by Department of Accounting and Finance, NSBM Green University. 
+- BizWizards 2023 - 2nd Runners-up - **An Inter-University Business Case Analysis Competition** organized by Department of Accounting and Finance, NSBM Green University. 
 Team Name: Electric Enigmas
-- BI Master 1.0 - Finalists - An Inter-University Business Intelligence Datathon organized by Association of Business Technology, University of Kelaniya. 
+- BI Master 1.0 - Finalists - **An Inter-University Business Intelligence Datathon** organized by Association of Business Technology, University of Kelaniya. 
 Team Name: BI Club 2.0
-- Infinity 3.0 - Finalists - An Inter-University Business Case Study Competition organized by Department of Commerce, Faculty of Management Studies and Commerce, University of Sri Jayewardenepura. 
+- Infinity 3.0 - Finalists - **An Inter-University Business Case Study Competition** organized by Department of Commerce, Faculty of Management Studies and Commerce, University of Sri Jayewardenepura. 
 Team Name: The Capitalists
-- Fusecura’22 - Finalists - An Inter-University Corporate Challenge organized by Faculty of Management Studies & Commerce, University of Sri Jayewardenepura. Team Name: 12_UOM
-- Maestro 2021 - Finalists - A Business Case Study Competition organized by Rotaract Club of University of Moratuwa. 
+- Fusecura’22 - Finalists - **An Inter-University Corporate Challenge** organized by Faculty of Management Studies & Commerce, University of Sri Jayewardenepura. Team Name: 12_UOM
+- Maestro 2021 - Finalists - **A Business Case Study Competition** organized by Rotaract Club of University of Moratuwa. 
 Team Name: Mora Scorchers 
