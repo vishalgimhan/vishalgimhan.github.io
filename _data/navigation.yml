@@ -17,6 +17,9 @@ main:
     url: /portfolio/
     #projects, links to projects, what i learned, etc
   
+  - title: "Writing"
+    url: /writing/
+
   - title: "CV"
     url: /files/vishalgimhan.pdf
 

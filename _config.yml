@@ -24,7 +24,7 @@ author:
   avatar           : "Vishal Profile Pic Dp.jpg"
   name             : "Vishal Gimhan"
   pronouns         : # example: "she/her"  
-  bio              : "Dedicated and detail-oriented individual with a strong academic background and hands-on experience in various areas of Data Analytics. Aside from Academics, constantly seeking opportunities to expand my knowledge in cutting-edge areas."
+  bio              : "Associate ML Engineer specialising in production-grade Agentic AI and RAG systems. Building with Google ADK, LangChain, Milvus, and LLMs at iLabs. First Class graduate, University of Moratuwa."
   location         : "Moratuwa, Sri Lanka"
   employer         : #"Red Brick University"
   uri              : # URL
@@ -60,7 +60,7 @@ author:
   lastfm           : # Username
   linkedin         : "vishal-gimhan-201bb315b"
   mastodon         : # URL
-  medium           : # URL
+  medium           : https://medium.com/@vishalgimhan
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username

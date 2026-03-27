@@ -7,24 +7,48 @@ redirect_from:
   - /about.html
 ---
 
-- 🎓 I have completed my Bachelor’s Degree from the University of Moratuwa (CGPA 3.98) in Nov 2024, specializing in Business Analytics. 📊
+- 🤖 Associate ML Engineer at **iLabs** — building Agentic AI systems, RAG pipelines, and semantic vector search for production e-commerce platforms.
+- 🎓 First Class graduate in Business Analytics from **University of Moratuwa** (CGPA 3.98), specialising in ML and Deep Learning.
+- 🎸 Outside of AI: guitarist, music producer, chess player.
 
-- 📊 During my degree, I gained hands-on experience in Data Wrangling, Machine Learning, Deep Learning, and Business Intelligence using tools like Python, R, PowerBI, and SQL. 🔍
+# Work Experience
 
-- 🤖 I’m passionate about exploring about Data Science, AI, Machine Learning, and Deep Learning, constantly working on independent projects and courses to enhance my skills. 🌐
+### Associate Machine Learning Engineer — iLabs (Pvt) Ltd
+**Jun 2025 – Present | Battaramulla, Sri Lanka**
 
-- 🎸 When I'm not coding or analyzing into data, you’ll find me strumming my guitar, producing music, or challenging myself in chess! ♟️
+- Built an AI-powered semantic vector search service for e-commerce product discovery using Milvus, embedding models, and reranker models for high-relevance natural language queries.
+- Developed an Agentic Chatbot with RAG architecture retrieving from Vector DB, CMS, Data Lake, and APIs — supporting product recommendations, order management, and customer support.
+- Built a custom App for the ChatGPT Apps ecosystem using the Apps SDK and MCP, with integrated Stripe payments.
+- Collaborated on an AI layer for an existing Customer Support System, surfacing past similar conversations to help agents resolve tickets faster.
+- Collaborated on a Multi-Agent AI Marketeer system capable of analysing, strategising, creating content, and executing personalised marketing campaigns.
+
+---
+
+### Intern — Machine Learning — iLabs (Pvt) Ltd
+**Dec 2024 – Jun 2025 | Battaramulla, Sri Lanka**
+
+- Built a dynamic discount model to predict optimal discounts per user, maximising conversion rates and minimising cart abandonment using ML on user behaviour and order history.
+- Developed a sequential recommendation engine predicting next-best items from user interaction history, deployed for e-commerce engagement optimisation.
 
 Skills and Tools
 ======
-- Python, R, MySQL, HTML, CSS, Django 
-- Numpy, Pandas, Matplotlib
-- Sklearn, Tensorflow, Keras
-- PowerBI, Tableau
+**Agentic AI & LLMs**
+Google ADK, LangChain, LangGraph, CrewAI, RAG Pipelines, LLM Fine-tuning, Prompt Engineering, MCP
 
-Interests
-======
-- Data Analytics, Machine Learning, Deep Learning, Large Language Models, Artificial Intelligence Tools
+**Vector Databases & Search**
+Milvus, Weaviate, Pinecone, Embedding Models, Reranker Models, Semantic Search
+
+**Deep Learning & ML**
+PyTorch, Scikit-learn, HuggingFace Transformers, XGBoost
+
+**Programming & Data**
+Python (NumPy, Pandas), R, SQL (MySQL), GitHub
+
+**BI & Visualization**
+Power BI (DAX), Tableau
+
+**Project Management**
+Jira, MS Project
 
 Extra Curricular
 ======
