@@ -23,4 +23,7 @@ main:
   - title: "CV"
     url: /files/vishalgimhan.pdf
 
+  - title: "Other"
+    url: /other/
+
     #about - interests, degree summary, certifications summary, portfolio summary, etc
