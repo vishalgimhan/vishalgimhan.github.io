@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: vishalgimhan/vishalgimhan.github.io
-  branch: main
+  branch: master
   base_url: https://sveltia-cms-auth.vishalgimhan.workers.dev
   auth_endpoint: /auth
   app_id: Ov23liAtShJKT4BoV6AZ
