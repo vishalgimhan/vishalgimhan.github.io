@@ -2,7 +2,7 @@ backend:
   name: github
   repo: vishalgimhan/vishalgimhan.github.io
   branch: main
-  base_url: sveltia-cms-auth-lvljyywq1-vishalgimhan-9192s-projects.vercel.app
+  base_url: sveltia-cms-auth.vishalgimhan.workers.dev
   auth_endpoint: /auth
   app_id: Ov23liAtShJKT4BoV6AZ
 
